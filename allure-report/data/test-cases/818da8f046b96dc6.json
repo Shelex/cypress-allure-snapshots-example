@@ -1,0 +1,217 @@
+{
+  "uid" : "818da8f046b96dc6",
+  "name" : "should attach screenshots from snapshot plugin",
+  "fullName" : "should attach screenshots from snapshot plugin",
+  "historyId" : "11df066ecb7dab8d8ad0c4871d184bb6",
+  "time" : {
+    "start" : 1595452251934,
+    "stop" : 1595452255593,
+    "duration" : 3659
+  },
+  "status" : "failed",
+  "statusMessage" : "Snapshot images do not match.",
+  "statusTrace" : "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:34214:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Snapshot images do not match.",
+    "statusTrace" : "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:34214:13)",
+    "steps" : [ {
+      "name" : "visit (\"/moretypes/15\")",
+      "time" : {
+        "start" : 1595452251938,
+        "stop" : 1595452253428,
+        "duration" : 1490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://tour.golang.org/lesson/",
+      "time" : {
+        "start" : 1595452253428,
+        "stop" : 1595452253428,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".bar.module-bar > span\")",
+      "time" : {
+        "start" : 1595452253428,
+        "stop" : 1595452253846,
+        "duration" : 418
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<span.ng-binding>** to have text **15/27** assert",
+      "time" : {
+        "start" : 1595452253846,
+        "stop" : 1595452253846,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "document",
+      "time" : {
+        "start" : 1595452253846,
+        "stop" : 1595452253852,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "toMatchImageSnapshot",
+      "time" : {
+        "start" : 1595452253852,
+        "stop" : 1595452254984,
+        "duration" : 1132
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "function(){} then",
+        "time" : {
+          "start" : 1595452254984,
+          "stop" : 1595452254984,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "[compare snapshot](#cypress-plugin-snapshot-eyJhY3R1YWwiOnsiaGVpZ2h0Ijo2NjAsInBhdGgiOiJjeXByZXNzL2ludGVncmF0aW9uL19faW1hZ2Vfc25hcHNob3RzX18vSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zICBzaG91bGQgYXR0YWNoIHNjcmVlbnNob3RzIGZyb20gc25hcHNob3QgcGx1Z2luICMwLmFjdHVhbC5wbmciLCJkZXZpY2VQaXhlbFJhdGlvIjoxLCJ3aWR0aCI6MTAwMH0sImNvbW1hbmROYW1lIjoidG9NYXRjaEltYWdlU25hcHNob3QiLCJkYXRhVHlwZSI6ImltYWdlIiwiZGlmZiI6eyJoZWlnaHQiOjY2MCwicGF0aCI6ImN5cHJlc3MvaW50ZWdyYXRpb24vX19pbWFnZV9zbmFwc2hvdHNfXy9JbnRlZ3JhdGlvbiBvZiBhbGx1cmUgYW5kIHNuYXBzaG90IHBsdWdpbnMgIHNob3VsZCBhdHRhY2ggc2NyZWVuc2hvdHMgZnJvbSBzbmFwc2hvdCBwbHVnaW4gIzAuZGlmZi5wbmciLCJkZXZpY2VQaXhlbFJhdGlvIjoxLCJ3aWR0aCI6MTAwMH0sImV4aXN0cyI6dHJ1ZSwiZXhwZWN0ZWQiOnsiaGVpZ2h0Ijo2NjAsInBhdGgiOiJjeXByZXNzL2ludGVncmF0aW9uL19faW1hZ2Vfc25hcHNob3RzX18vSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zICBzaG91bGQgYXR0YWNoIHNjcmVlbnNob3RzIGZyb20gc25hcHNob3QgcGx1Z2luICMwLnBuZyIsImRldmljZVBpeGVsUmF0aW8iOjEsIndpZHRoIjoxMDAwfSwicGFzc2VkIjpmYWxzZSwic25hcHNob3RGaWxlIjoiY3lwcmVzcy9pbnRlZ3JhdGlvbi9fX2ltYWdlX3NuYXBzaG90c19fL0ludGVncmF0aW9uIG9mIGFsbHVyZSBhbmQgc25hcHNob3QgcGx1Z2lucyAgc2hvdWxkIGF0dGFjaCBzY3JlZW5zaG90cyBmcm9tIHNuYXBzaG90IHBsdWdpbiAjMC5wbmciLCJzbmFwc2hvdFRpdGxlIjoiSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zID4gc2hvdWxkIGF0dGFjaCBzY3JlZW5zaG90cyBmcm9tIHNuYXBzaG90IHBsdWdpbiAjMCIsInVwZGF0ZWQiOmZhbHNlLCJpc0ltYWdlIjp0cnVlfQ==) toMatchImageSnapshot",
+        "time" : {
+          "start" : 1595452254984,
+          "stop" : 1595452254984,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "fdbd271a17aa513",
+      "name" : "snapshot.test.js.mp4",
+      "source" : "fdbd271a17aa513.mp4",
+      "type" : "video/mp4",
+      "size" : 163003
+    }, {
+      "name" : "snapshot.test.js:2020-07-22T21:10:53.870Z",
+      "type" : "image/png",
+      "size" : 0
+    }, {
+      "uid" : "4d59e57d52604c14",
+      "name" : "snapshot.test.js:2020-07-22T21:10:54.988Z",
+      "source" : "4d59e57d52604c14.png",
+      "type" : "image/png",
+      "size" : 311995
+    }, {
+      "uid" : "10096b691736ca41",
+      "name" : "actual",
+      "source" : "10096b691736ca41.png",
+      "type" : "image/png",
+      "size" : 174581
+    }, {
+      "uid" : "65b2c1737c503a7b",
+      "name" : "expected",
+      "source" : "65b2c1737c503a7b.png",
+      "type" : "image/png",
+      "size" : 93241
+    }, {
+      "uid" : "e1715e3848047efc",
+      "name" : "diff",
+      "source" : "e1715e3848047efc.png",
+      "type" : "image/png",
+      "size" : 66234
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Integration of allure and snapshot plugins"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "818da8f046b96dc6.json",
+  "parameterValues" : [ ]
+}

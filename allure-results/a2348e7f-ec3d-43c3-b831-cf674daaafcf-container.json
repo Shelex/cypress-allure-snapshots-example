@@ -1,0 +1,16 @@
+{
+    "uuid": "a2348e7f-ec3d-43c3-b831-cf674daaafcf",
+    "children": ["f3dbb80f-1f20-4a50-b42b-7699093d5e02"],
+    "befores": [],
+    "afters": [
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "name": "Integration of allure and snapshot plugins"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "cypress-allure-snapshots-example",
+    "version": "1.0.0",
+    "description": "example for cypress-allure-plugin and cypress-plugin-snapshots",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "author": {
+        "name": "Oleksandr Shevtsov",
+        "email": "ovr.shevtsov@gmail.com"
+    },
+    "keywords": [
+        "cypress",
+        "allure",
+        "allure2",
+        "reporter"
+    ],
+    "devDependencies": {
+        "@shelex/cypress-allure-plugin": "^1.8.0",
+        "cypress": "^4.11.0",
+        "cypress-plugin-snapshots": "^1.4.3"
+    },
+    "resolutions": {
+        "js-base64": "2.5.2"
+    }
+}

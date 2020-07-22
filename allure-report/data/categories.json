@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Snapshot images do not match.",
+      "children" : [ {
+        "name" : "should attach screenshots from snapshot plugin",
+        "uid" : "818da8f046b96dc6",
+        "parentUid" : "7ae351c962bb8c7bddbc72ba3603a500",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595452251934,
+          "stop" : 1595452255593,
+          "duration" : 3659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ae351c962bb8c7bddbc72ba3603a500"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

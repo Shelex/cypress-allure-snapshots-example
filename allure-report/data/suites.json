@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Integration of allure and snapshot plugins",
+    "children" : [ {
+      "name" : "should attach screenshots from snapshot plugin",
+      "uid" : "818da8f046b96dc6",
+      "parentUid" : "4b95d465683b069ecbb7625b462ca33f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1595452251934,
+        "stop" : 1595452255593,
+        "duration" : 3659
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b95d465683b069ecbb7625b462ca33f"
+  } ]
+}

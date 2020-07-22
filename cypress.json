@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://tour.golang.org",
+    "env": {
+        "issuePrefix": "issuePrefix-",
+        "tmsPrefix": "tmsPrefix-",
+        "allure": true,
+        "cypress-plugin-snapshots": {
+            "imageConfig": {
+                "threshold": 0.0,
+                "thresholdType": "percent"
+            }
+        }
+    },
+    "ignoreTestFiles": ["**/__snapshots__/*", "**/__image_snapshots__/*"]
+}

@@ -1,0 +1,145 @@
+{
+    "uuid": "f3dbb80f-1f20-4a50-b42b-7699093d5e02",
+    "historyId": "11df066ecb7dab8d8ad0c4871d184bb6",
+    "status": "failed",
+    "statusDetails": {
+        "message": "Snapshot images do not match.",
+        "trace": "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:34214:13)"
+    },
+    "stage": "finished",
+    "steps": [
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1595452251938,
+            "name": "visit (\"/moretypes/15\")",
+            "stop": 1595452253428
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1595452253428,
+            "name": "GET https://tour.golang.org/lesson/",
+            "stop": 1595452253428
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1595452253428,
+            "name": "get (\".bar.module-bar > span\")",
+            "stop": 1595452253846
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1595452253846,
+            "name": "expected **<span.ng-binding>** to have text **15/27** assert",
+            "stop": 1595452253846
+        },
+        {
+            "status": "passed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "start": 1595452253846,
+            "name": "document",
+            "stop": 1595452253852
+        },
+        {
+            "status": "failed",
+            "statusDetails": {},
+            "stage": "finished",
+            "steps": [
+                {
+                    "status": "failed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1595452254984,
+                    "name": "function(){} then",
+                    "stop": 1595452254984
+                },
+                {
+                    "status": "failed",
+                    "statusDetails": {},
+                    "stage": "finished",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "start": 1595452254984,
+                    "name": "[compare snapshot](#cypress-plugin-snapshot-eyJhY3R1YWwiOnsiaGVpZ2h0Ijo2NjAsInBhdGgiOiJjeXByZXNzL2ludGVncmF0aW9uL19faW1hZ2Vfc25hcHNob3RzX18vSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zICBzaG91bGQgYXR0YWNoIHNjcmVlbnNob3RzIGZyb20gc25hcHNob3QgcGx1Z2luICMwLmFjdHVhbC5wbmciLCJkZXZpY2VQaXhlbFJhdGlvIjoxLCJ3aWR0aCI6MTAwMH0sImNvbW1hbmROYW1lIjoidG9NYXRjaEltYWdlU25hcHNob3QiLCJkYXRhVHlwZSI6ImltYWdlIiwiZGlmZiI6eyJoZWlnaHQiOjY2MCwicGF0aCI6ImN5cHJlc3MvaW50ZWdyYXRpb24vX19pbWFnZV9zbmFwc2hvdHNfXy9JbnRlZ3JhdGlvbiBvZiBhbGx1cmUgYW5kIHNuYXBzaG90IHBsdWdpbnMgIHNob3VsZCBhdHRhY2ggc2NyZWVuc2hvdHMgZnJvbSBzbmFwc2hvdCBwbHVnaW4gIzAuZGlmZi5wbmciLCJkZXZpY2VQaXhlbFJhdGlvIjoxLCJ3aWR0aCI6MTAwMH0sImV4aXN0cyI6dHJ1ZSwiZXhwZWN0ZWQiOnsiaGVpZ2h0Ijo2NjAsInBhdGgiOiJjeXByZXNzL2ludGVncmF0aW9uL19faW1hZ2Vfc25hcHNob3RzX18vSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zICBzaG91bGQgYXR0YWNoIHNjcmVlbnNob3RzIGZyb20gc25hcHNob3QgcGx1Z2luICMwLnBuZyIsImRldmljZVBpeGVsUmF0aW8iOjEsIndpZHRoIjoxMDAwfSwicGFzc2VkIjpmYWxzZSwic25hcHNob3RGaWxlIjoiY3lwcmVzcy9pbnRlZ3JhdGlvbi9fX2ltYWdlX3NuYXBzaG90c19fL0ludGVncmF0aW9uIG9mIGFsbHVyZSBhbmQgc25hcHNob3QgcGx1Z2lucyAgc2hvdWxkIGF0dGFjaCBzY3JlZW5zaG90cyBmcm9tIHNuYXBzaG90IHBsdWdpbiAjMC5wbmciLCJzbmFwc2hvdFRpdGxlIjoiSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zID4gc2hvdWxkIGF0dGFjaCBzY3JlZW5zaG90cyBmcm9tIHNuYXBzaG90IHBsdWdpbiAjMCIsInVwZGF0ZWQiOmZhbHNlLCJpc0ltYWdlIjp0cnVlfQ==) toMatchImageSnapshot",
+                    "stop": 1595452254984
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "start": 1595452253852,
+            "name": "toMatchImageSnapshot",
+            "stop": 1595452254984
+        }
+    ],
+    "attachments": [
+        {
+            "name": "snapshot.test.js.mp4",
+            "type": "video/mp4",
+            "source": "../cypress/videos/snapshot.test.js.mp4"
+        },
+        {
+            "name": "snapshot.test.js:2020-07-22T21:10:53.870Z",
+            "type": "image/png",
+            "source": "0acf2e32-f577-4436-9ca8-fb733efff4d2-attachment.png"
+        },
+        {
+            "name": "snapshot.test.js:2020-07-22T21:10:54.988Z",
+            "type": "image/png",
+            "source": "f41c0a2f-e288-42c8-a382-ddab648449e5-attachment.png"
+        },
+        {
+            "name": "actual",
+            "type": "image/png",
+            "source": "../cypress/integration/__image_snapshots__/Integration of allure and snapshot plugins  should attach screenshots from snapshot plugin #0.actual.png"
+        },
+        {
+            "name": "expected",
+            "type": "image/png",
+            "source": "../cypress/integration/__image_snapshots__/Integration of allure and snapshot plugins  should attach screenshots from snapshot plugin #0.png"
+        },
+        {
+            "name": "diff",
+            "type": "image/png",
+            "source": "../cypress/integration/__image_snapshots__/Integration of allure and snapshot plugins  should attach screenshots from snapshot plugin #0.diff.png"
+        }
+    ],
+    "parameters": [],
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Integration of allure and snapshot plugins"
+        }
+    ],
+    "links": [],
+    "start": 1595452251934,
+    "name": "should attach screenshots from snapshot plugin",
+    "fullName": "should attach screenshots from snapshot plugin",
+    "stop": 1595452255593
+}

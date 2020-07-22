@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 23 00:10:51 EEST 2020","Thu Jul 23 00:10:55 EEST 2020","3659","Integration of allure and snapshot plugins","","","","","should attach screenshots from snapshot plugin",""
