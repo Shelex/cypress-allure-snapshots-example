@@ -1,23 +1,14 @@
 {
   "11df066ecb7dab8d8ad0c4871d184bb6" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "2a9db4470051e356",
-      "status" : "failed",
-      "statusDetails" : "Snapshot images do not match.",
-      "time" : {
-        "start" : 1609428144953,
-        "stop" : 1609428148730,
-        "duration" : 3777
-      }
-    }, {
       "uid" : "818da8f046b96dc6",
       "status" : "failed",
       "statusDetails" : "Snapshot images do not match.",

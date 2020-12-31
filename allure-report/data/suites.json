@@ -5,13 +5,13 @@
     "name" : "Integration of allure and snapshot plugins",
     "children" : [ {
       "name" : "should attach screenshots from snapshot plugin",
-      "uid" : "818da8f046b96dc6",
+      "uid" : "2a9db4470051e356",
       "parentUid" : "4b95d465683b069ecbb7625b462ca33f",
       "status" : "failed",
       "time" : {
-        "start" : 1595452251934,
-        "stop" : 1595452255593,
-        "duration" : 3659
+        "start" : 1609428144953,
+        "stop" : 1609428148730,
+        "duration" : 3777
       },
       "flaky" : false,
       "newFailed" : false,

@@ -24,23 +24,23 @@ afterEach(() => {
             .replace('[compare snapshot](#cypress-plugin-snapshot-', '')
             .slice(0, -1);
         const snapshotInfo = JSON.parse(atob(base64));
-        cy.allure().then((allure) => {
-            allure.currentTest.addAttachment(
+        cy.allure()
+            .label('testType', 'screenshotDiff')
+            .attachFile(
                 'actual',
-                'image/png',
-                path.join('..', snapshotInfo.actual.path)
-            );
-            allure.currentTest.addAttachment(
+                snapshotInfo.actual.path,
+                'image/png'
+            )
+            .attachFile(
                 'expected',
-                'image/png',
-                path.join('..', snapshotInfo.expected.path)
-            );
-            allure.currentTest.addAttachment(
+                snapshotInfo.expected.path,
+                'image/png'
+            )
+            .attachFile(
                 'diff',
-                'image/png',
-                path.join('..', snapshotInfo.diff.path)
+                snapshotInfo.diff.path,
+                'image/png'
             );
-        });
     }
     snapshot = null;
 });

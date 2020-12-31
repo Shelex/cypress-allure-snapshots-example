@@ -1,10 +1,10 @@
 [ {
-  "uid" : "818da8f046b96dc6",
+  "uid" : "2a9db4470051e356",
   "name" : "should attach screenshots from snapshot plugin",
   "time" : {
-    "start" : 1595452251934,
-    "stop" : 1595452255593,
-    "duration" : 3659
+    "start" : 1609428144953,
+    "stop" : 1609428148730,
+    "duration" : 3777
   },
   "status" : "failed",
   "severity" : "normal"
