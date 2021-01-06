@@ -1,18 +1,18 @@
 {
-  "uid" : "2a9db4470051e356",
+  "uid" : "66efc39f2bd7671b",
   "name" : "should attach screenshots from snapshot plugin",
   "fullName" : "should attach screenshots from snapshot plugin",
   "historyId" : "11df066ecb7dab8d8ad0c4871d184bb6",
   "time" : {
-    "start" : 1609428144953,
-    "stop" : 1609428148730,
-    "duration" : 3777
+    "start" : 1609926210199,
+    "stop" : 1609926213884,
+    "duration" : 3685
   },
   "status" : "failed",
   "statusMessage" : "Snapshot images do not match.",
-  "statusTrace" : "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:42848:13)",
+  "statusTrace" : "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:42846:13)",
   "flaky" : false,
-  "newFailed" : false,
+  "newFailed" : true,
   "beforeStages" : [ {
     "time" : { },
     "status" : "passed",
@@ -27,13 +27,13 @@
   "testStage" : {
     "status" : "failed",
     "statusMessage" : "Snapshot images do not match.",
-    "statusTrace" : "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:42848:13)",
+    "statusTrace" : "Error: Snapshot images do not match.\n    at Context.logMessage (https://tour.golang.org/__cypress/tests?p=cypress/support/index.js:42846:13)",
     "steps" : [ {
       "name" : "visit (\"/moretypes/15\")",
       "time" : {
-        "start" : 1609428144956,
-        "stop" : 1609428146776,
-        "duration" : 1820
+        "start" : 1609926210202,
+        "stop" : 1609926211623,
+        "duration" : 1421
       },
       "status" : "passed",
       "steps" : [ ],
@@ -44,10 +44,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j87&a=477116197&t=pageview&_s=1&dl=https://tour.golang.org/moretypes/15&ul=en-gb&de=UTF-8&dt=A Tour of Go&sd=30-bit&sr=1440x900&vp=1000x660&je=0&_u=IEBAAUABAAAAAC~&jid=59849316&gjid=1242897579&cid=668953340.1609428146&tid=UA-11222381-5&_gid=689584748.1609428146&_r=1&gtm=2oubu0&z=147724497",
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j87&a=250371450&t=pageview&_s=1&dl=https://tour.golang.org/moretypes/15&ul=en-gb&de=UTF-8&dt=A Tour of Go&sd=30-bit&sr=1440x900&vp=1000x660&je=0&_u=IEBAAUABAAAAAC~&jid=396317228&gjid=2111979208&cid=978648258.1609926211&tid=UA-11222381-5&_gid=139575244.1609926211&_r=1&gtm=2oubu0&z=82435224",
       "time" : {
-        "start" : 1609428146774,
-        "stop" : 1609428146774,
+        "start" : 1609926211621,
+        "stop" : 1609926211621,
         "duration" : 0
       },
       "status" : "passed",
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j87&a=477116197&t=pageview&_s=1&dl=https://tour.golang.org/moretypes/15&ul=en-gb&de=UTF-8&dt=A Tour of Go&sd=30-bit&sr=1440x900&vp=1000x660&je=0&_u=IEDAAUABAAAAAC~&jid=1362811483&gjid=1785960861&cid=668953340.1609428146&tid=UA-49880327-6&_gid=689584748.1609428146&_r=1&gtm=2oubu0&z=1261584550",
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j87&a=250371450&t=pageview&_s=1&dl=https://tour.golang.org/moretypes/15&ul=en-gb&de=UTF-8&dt=A Tour of Go&sd=30-bit&sr=1440x900&vp=1000x660&je=0&_u=IEDAAUABAAAAAC~&jid=412020062&gjid=1952782107&cid=978648258.1609926211&tid=UA-49880327-6&_gid=139575244.1609926211&_r=1&gtm=2oubu0&z=1719939836",
       "time" : {
-        "start" : 1609428146775,
-        "stop" : 1609428146775,
+        "start" : 1609926211622,
+        "stop" : 1609926211622,
         "duration" : 0
       },
       "status" : "passed",
@@ -74,10 +74,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j87&tid=UA-11222381-5&cid=668953340.1609428146&jid=59849316&gjid=1242897579&_gid=689584748.1609428146&_u=IEBAAUAAAAAAAC~&z=143879554",
+      "name" : "POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j87&tid=UA-11222381-5&cid=978648258.1609926211&jid=396317228&gjid=2111979208&_gid=139575244.1609926211&_u=IEBAAUAAAAAAAC~&z=1453348985",
       "time" : {
-        "start" : 1609428146775,
-        "stop" : 1609428146775,
+        "start" : 1609926211623,
+        "stop" : 1609926211623,
         "duration" : 0
       },
       "status" : "passed",
@@ -91,8 +91,8 @@
     }, {
       "name" : "GET https://tour.golang.org/lesson/",
       "time" : {
-        "start" : 1609428146775,
-        "stop" : 1609428146775,
+        "start" : 1609926211623,
+        "stop" : 1609926211623,
         "duration" : 0
       },
       "status" : "passed",
@@ -106,9 +106,9 @@
     }, {
       "name" : "get (\".bar.module-bar > span\")",
       "time" : {
-        "start" : 1609428146776,
-        "stop" : 1609428147225,
-        "duration" : 449
+        "start" : 1609926211623,
+        "stop" : 1609926212360,
+        "duration" : 737
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,8 +121,8 @@
     }, {
       "name" : "expected **<span.ng-binding>** to have text **15/27** assert",
       "time" : {
-        "start" : 1609428147225,
-        "stop" : 1609428147225,
+        "start" : 1609926212359,
+        "stop" : 1609926212359,
         "duration" : 0
       },
       "status" : "passed",
@@ -136,9 +136,9 @@
     }, {
       "name" : "document",
       "time" : {
-        "start" : 1609428147225,
-        "stop" : 1609428147228,
-        "duration" : 3
+        "start" : 1609926212360,
+        "stop" : 1609926212364,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -151,16 +151,16 @@
     }, {
       "name" : "toMatchImageSnapshot",
       "time" : {
-        "start" : 1609428147228,
-        "stop" : 1609428148173,
-        "duration" : 945
+        "start" : 1609926212364,
+        "stop" : 1609926213345,
+        "duration" : 981
       },
       "status" : "failed",
       "steps" : [ {
         "name" : "function(){} then",
         "time" : {
-          "start" : 1609428148173,
-          "stop" : 1609428148173,
+          "start" : 1609926213345,
+          "stop" : 1609926213345,
           "duration" : 0
         },
         "status" : "failed",
@@ -174,8 +174,8 @@
       }, {
         "name" : "[compare snapshot](#cypress-plugin-snapshot-eyJhY3R1YWwiOnsiaGVpZ2h0Ijo2NjAsInBhdGgiOiJjeXByZXNzL2ludGVncmF0aW9uL19faW1hZ2Vfc25hcHNob3RzX18vSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zICBzaG91bGQgYXR0YWNoIHNjcmVlbnNob3RzIGZyb20gc25hcHNob3QgcGx1Z2luICMwLmFjdHVhbC5wbmciLCJkZXZpY2VQaXhlbFJhdGlvIjoxLCJ3aWR0aCI6MTAwMH0sImNvbW1hbmROYW1lIjoidG9NYXRjaEltYWdlU25hcHNob3QiLCJkYXRhVHlwZSI6ImltYWdlIiwiZGlmZiI6eyJoZWlnaHQiOjY2MCwicGF0aCI6ImN5cHJlc3MvaW50ZWdyYXRpb24vX19pbWFnZV9zbmFwc2hvdHNfXy9JbnRlZ3JhdGlvbiBvZiBhbGx1cmUgYW5kIHNuYXBzaG90IHBsdWdpbnMgIHNob3VsZCBhdHRhY2ggc2NyZWVuc2hvdHMgZnJvbSBzbmFwc2hvdCBwbHVnaW4gIzAuZGlmZi5wbmciLCJkZXZpY2VQaXhlbFJhdGlvIjoxLCJ3aWR0aCI6MTAwMH0sImV4aXN0cyI6dHJ1ZSwiZXhwZWN0ZWQiOnsiaGVpZ2h0Ijo2NjAsInBhdGgiOiJjeXByZXNzL2ludGVncmF0aW9uL19faW1hZ2Vfc25hcHNob3RzX18vSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zICBzaG91bGQgYXR0YWNoIHNjcmVlbnNob3RzIGZyb20gc25hcHNob3QgcGx1Z2luICMwLnBuZyIsImRldmljZVBpeGVsUmF0aW8iOjEsIndpZHRoIjoxMDAwfSwicGFzc2VkIjpmYWxzZSwic25hcHNob3RGaWxlIjoiY3lwcmVzcy9pbnRlZ3JhdGlvbi9fX2ltYWdlX3NuYXBzaG90c19fL0ludGVncmF0aW9uIG9mIGFsbHVyZSBhbmQgc25hcHNob3QgcGx1Z2lucyAgc2hvdWxkIGF0dGFjaCBzY3JlZW5zaG90cyBmcm9tIHNuYXBzaG90IHBsdWdpbiAjMC5wbmciLCJzbmFwc2hvdFRpdGxlIjoiSW50ZWdyYXRpb24gb2YgYWxsdXJlIGFuZCBzbmFwc2hvdCBwbHVnaW5zID4gc2hvdWxkIGF0dGFjaCBzY3JlZW5zaG90cyBmcm9tIHNuYXBzaG90IHBsdWdpbiAjMCIsInVwZGF0ZWQiOmZhbHNlLCJpc0ltYWdlIjp0cnVlfQ==) toMatchImageSnapshot",
         "time" : {
-          "start" : 1609428148173,
-          "stop" : 1609428148173,
+          "start" : 1609926213345,
+          "stop" : 1609926213345,
           "duration" : 0
         },
         "status" : "failed",
@@ -196,9 +196,9 @@
     }, {
       "name" : "\"after each\" hook",
       "time" : {
-        "start" : 1609428148732,
-        "stop" : 1609428148735,
-        "duration" : 3
+        "start" : 1609926213888,
+        "stop" : 1609926213892,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -210,35 +210,35 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "4f5de6333e4057ad",
+      "uid" : "ef8267ca58c649bd",
       "name" : "snapshot.test.js.mp4",
-      "source" : "4f5de6333e4057ad.mp4",
+      "source" : "ef8267ca58c649bd.mp4",
       "type" : "video/mp4",
-      "size" : 168418
+      "size" : 169069
     }, {
-      "uid" : "a997195f697cc125",
-      "name" : "snapshot.test.js:2020-12-31T15:22:28.180Z",
-      "source" : "a997195f697cc125.png",
+      "uid" : "dadc41ead57565b2",
+      "name" : "snapshot.test.js:2021-01-06T09:43:33.350Z",
+      "source" : "dadc41ead57565b2.png",
       "type" : "image/png",
-      "size" : 335459
+      "size" : 335766
     }, {
-      "uid" : "58b350a463c0e5a0",
+      "uid" : "3aab49b7419c88dc",
       "name" : "actual",
-      "source" : "58b350a463c0e5a0.png",
+      "source" : "3aab49b7419c88dc.png",
       "type" : "image/png",
       "size" : 175028
     }, {
-      "uid" : "e5f38d4c589593fe",
+      "uid" : "79a6f1fac58610ba",
       "name" : "expected",
-      "source" : "e5f38d4c589593fe.png",
+      "source" : "79a6f1fac58610ba.png",
       "type" : "image/png",
-      "size" : 93241
+      "size" : 87986
     }, {
-      "uid" : "adfc6ec29e4efdc1",
+      "uid" : "5c11b3372b299543",
       "name" : "diff",
-      "source" : "adfc6ec29e4efdc1.png",
+      "source" : "5c11b3372b299543.png",
       "type" : "image/png",
-      "size" : 66775
+      "size" : 73162
     } ],
     "parameters" : [ ],
     "stepsCount" : 12,
@@ -281,26 +281,25 @@
     } ],
     "history" : {
       "statistic" : {
-        "failed" : 2,
+        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 1,
         "unknown" : 0,
         "total" : 2
       },
       "items" : [ {
-        "uid" : "818da8f046b96dc6",
-        "status" : "failed",
-        "statusDetails" : "Snapshot images do not match.",
+        "uid" : "799187fafcb8e699",
+        "status" : "passed",
         "time" : {
-          "start" : 1595452251934,
-          "stop" : 1595452255593,
-          "duration" : 3659
+          "start" : 1609926158337,
+          "stop" : 1609926160663,
+          "duration" : 2326
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "2a9db4470051e356.json",
+  "source" : "66efc39f2bd7671b.json",
   "parameterValues" : [ ]
 }

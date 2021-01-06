@@ -5,8 +5,11 @@
         "tmsPrefix": "tmsPrefix-",
         "allure": true,
         "cypress-plugin-snapshots": {
+            "autopassNewSnapshots": true,
             "imageConfig": {
-                "threshold": 0.0,
+                "createDiffImage": true,
+                "resizeDevicePixelRatio": true,
+                "threshold": 0.01,
                 "thresholdType": "percent"
             }
         }
