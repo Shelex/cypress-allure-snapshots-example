@@ -15,7 +15,7 @@
         "reporter"
     ],
     "devDependencies": {
-        "@shelex/cypress-allure-plugin": "1.10.1",
+        "@shelex/cypress-allure-plugin": "2.0.0",
         "cypress": "6.2.0",
         "cypress-plugin-snapshots": "1.4.4"
     },

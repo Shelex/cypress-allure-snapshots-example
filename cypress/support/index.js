@@ -1,8 +1,6 @@
 import '@shelex/cypress-allure-plugin';
 import 'cypress-plugin-snapshots/commands';
 
-const path = require('path');
-
 let snapshot;
 
 Cypress.on('log:added', (log) => {
@@ -26,17 +24,17 @@ afterEach(() => {
         const snapshotInfo = JSON.parse(atob(base64));
         cy.allure()
             .label('testType', 'screenshotDiff')
-            .attachFile(
+            .fileAttachment(
                 'actual',
                 snapshotInfo.actual.path,
                 'image/png'
             )
-            .attachFile(
+            .fileAttachment(
                 'expected',
                 snapshotInfo.expected.path,
                 'image/png'
             )
-            .attachFile(
+            .fileAttachment(
                 'diff',
                 snapshotInfo.diff.path,
                 'image/png'
